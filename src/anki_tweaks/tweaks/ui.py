@@ -76,13 +76,6 @@ def on_webview_will_set_content(web_content: WebContent, context):
                 button[data-ease='4'] { display: none }
             </style>"""
 
-    if isinstance(context, Editor):
-        if config.data["ui_hide_hypertts_buttons_in_add_window"]:
-            # Hide HyperTTS buttons in "add note" window
-            web_content.head += """<style>
-                .editor-toolbar #hypertts { display: none }
-            </style>"""
-
 
 def init_ui_tweak():
     gui_hooks.webview_will_set_content.append(on_webview_will_set_content)

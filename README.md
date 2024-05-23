@@ -8,7 +8,6 @@
   "ui_font_family": "sans-serif",
   "ui_font_size": 16,
   "ui_clean_review": true,
-  "ui_hide_hypertts_buttons_in_add_window": false,
   "cloze__enabled": false,
   "cloze_shortcut_open_next": "n",
   "cloze_shortcut_open_all": "N",
